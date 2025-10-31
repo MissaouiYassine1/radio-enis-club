@@ -7,6 +7,7 @@ import { useEvents } from '../hooks/useEvents';
 import EventCard from '../components/EventCard';
 import { Calendar, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from "next/image";
 
 const HomePage = () => {
   const { events, loading } = useEvents();
@@ -15,6 +16,15 @@ const HomePage = () => {
   return (
     <>
       <Head>
+        <div className="flex justify-center items-center h-screen">
+            <Image
+                src="/images/logo-radio-enis.png"
+                alt="Logo Radio ENIS"
+                width={200}
+                height={200}
+            />
+        </div>
+
         <title>Radio ENIS - La voix des étudiants</title>
         <meta 
           name="description" 
