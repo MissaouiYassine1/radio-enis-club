@@ -15,16 +15,8 @@ const HomePage = () => {
 
   return (
     <>
+      {/* Head */}
       <Head>
-        <div className="flex justify-center items-center h-screen">
-            <Image
-                src="/images/logo-radio-enis.png"
-                alt="Logo Radio ENIS"
-                width={200}
-                height={200}
-            />
-        </div>
-
         <title>Radio ENIS - La voix des étudiants</title>
         <meta 
           name="description" 
@@ -34,7 +26,18 @@ const HomePage = () => {
         <meta property="og:title" content="Radio ENIS - La voix des étudiants" />
         <meta property="og:description" content="Découvrez nos émissions, événements culturels et l'actualité du campus en direct." />
         <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      {/* Logo centré */}
+      <div className="flex justify-center items-center my-12">
+        <Image
+          src="/images/logo-radio-enis.png"
+          alt="Logo Radio ENIS"
+          width={200}
+          height={200}
+        />
+      </div>
 
       {/* Hero Section */}
       <HeroSection />
