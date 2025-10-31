@@ -32,21 +32,25 @@ const HeroSection = () => {
           </motion.div>
 
           {/* Titre principal */}
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
+          <div className="flex flex-row flex-wrap justify-center items-center gap-6 mb-6">
+            <Image
+                src="/images/logo-enis-radio.png"
+                alt="Logo Radio ENIS"
+                width={120}
+                height={120}
+            />
+            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Radio{' '}
             <span className="bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent">
               ENIS
             </span>
             
-            <Image
-                src="/images/logo-enis-radio.png"
-                alt="Logo Radio ENIS"
-                width={200}
-                height={200}
-            />
+            
             
           </h1>
-
+          
+          </div>
+          
           {/* Sous-titre */}
           <motion.p
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
