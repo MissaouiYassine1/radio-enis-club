@@ -32,7 +32,7 @@ const HomePage = () => {
       {/* Logo centré */}
       <div className="flex justify-center items-center my-12">
         <Image
-          src="/images/logo-radio-enis.png"
+          src="/images/logo-enis-radio.png"
           alt="Logo Radio ENIS"
           width={200}
           height={200}

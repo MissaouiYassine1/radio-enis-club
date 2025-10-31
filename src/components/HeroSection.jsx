@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from './Button';
 import { Play, Calendar, Users } from 'lucide-react';
-
+import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 to-blue-100 dark:from-dark-900 dark:to-gray-900 overflow-hidden">
@@ -37,6 +37,15 @@ const HeroSection = () => {
             <span className="bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent">
               ENIS
             </span>
+            {/* Logo centré */}
+                  <div className="flex justify-center items-center my-12">
+                    <Image
+                      src="/images/logo-enis-radio.png"
+                      alt="Logo Radio ENIS"
+                      width={200}
+                      height={200}
+                    />
+                  </div>
           </h1>
 
           {/* Sous-titre */}
