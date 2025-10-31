@@ -7,7 +7,7 @@ import { useEvents } from '../hooks/useEvents';
 import EventCard from '../components/EventCard';
 import { Calendar, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import Image from "next/image";
+
 
 const HomePage = () => {
   const { events, loading } = useEvents();
@@ -29,15 +29,7 @@ const HomePage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Logo centré */}
-      <div className="flex justify-center items-center my-12">
-        <Image
-          src="/images/logo-enis-radio.png"
-          alt="Logo Radio ENIS"
-          width={200}
-          height={200}
-        />
-      </div>
+      
 
       {/* Hero Section */}
       <HeroSection />
