@@ -26,7 +26,7 @@ const Footer = () => {
   const socialLinks = [
     { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61579754904455', icon: Facebook },
     { name: 'Twitter', href: '#', icon: Twitter },
-    { name: 'Instagram', href: '#', icon: Instagram },
+    { name: 'Instagram', href: 'https://www.instagram.com/enis_radio_club/', icon: Instagram },
     { name: 'YouTube', href: 'https://www.youtube.com/@ENISONAIIR', icon: Youtube },
   ];
 

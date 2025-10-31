@@ -80,7 +80,7 @@ const ContactPage = () => {
   const socialLinks = [
     { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61579754904455', label: 'Facebook' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/enis_radio_club/', label: 'Instagram' },
     { icon: Youtube, href: 'https://www.youtube.com/@ENISONAIIR', label: 'YouTube' },
   ];
 
